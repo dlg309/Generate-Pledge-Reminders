@@ -1,0 +1,13 @@
+.venv/
+.vscode/
+__pycache__/
+build/
+dist/
+*.spec
+tmp/
+INPUT_CSV/
+docs/
+* Pledge Reminders - * Donors/
+*.pdf
+*.png
+app.txt

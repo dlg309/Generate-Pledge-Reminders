@@ -1,0 +1,2 @@
+pypdf>=7,<8
+reportlab>=5,<6
