@@ -60,6 +60,9 @@ class ReminderApp:
         ttk.Label(frame, textvariable=self.status_var, wraplength=620).grid(
             row=6, column=0, columnspan=3, sticky="w", pady=16
         )
+        ttk.Label(frame, text="Created by @dlg309").grid(
+            row=7, column=0, columnspan=3, sticky="w"
+        )
 
         self.csv_var.trace_add("write", lambda *_: self.refresh_assets())
 

@@ -2,6 +2,8 @@
 
 A Windows desktop app that turns a donor CSV into individual two-page pledge reminder PDFs and one merged print batch.
 
+Created by [@dlg309](https://github.com/dlg309).
+
 ## Run locally
 
 Install Python 3.14, then:
