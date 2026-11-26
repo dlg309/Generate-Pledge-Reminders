@@ -24,3 +24,5 @@ After placing the approved template and signature image in `docs`, install PyIns
 ```
 
 The build creates `dist/PledgeReminders.exe`. See [OFFICE_USE.md](OFFICE_USE.md) for coworker testing and sharing instructions.
+
+To run the PDF checks with the office's approved sample CSV in `INPUT_CSV`, use `.\.venv\Scripts\python.exe -m unittest discover -s tests`. The tests skip when that sample is absent.
